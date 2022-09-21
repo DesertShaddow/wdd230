@@ -37,7 +37,7 @@ body {
       grid-template-columns: 2fr(auto-fit, minmax(9em, 1fr));
       gap: 30px;
       margin: 0;
-      background-color: #676F54;
+      background-color: #79B4A9;
       border: 1px solid #9CC69B;
       align-items: center;
       justify-items: center;
@@ -54,7 +54,7 @@ body {
   
   nav a:hover {
       color: #D7F2BA;
-      background-color: #79B4A9;
+      background-color: #676f54;
   }
   
   
