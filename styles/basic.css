@@ -34,7 +34,7 @@ body {
   nav ul {
     list-style: none; /* removes the bullets! */
     display: grid;
-        grid-template-columns: 2fr(minmax(9em, 1fr));
+        grid-template-columns: auto;
         gap: 30px;
         margin: 0 15em;
         align-items: center;
