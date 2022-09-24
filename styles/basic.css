@@ -30,17 +30,16 @@ body {
   
   
   nav ul {
-      list-style: none; /* removes the bullets! */
-      display: grid;
-      grid-template-columns: 2fr(auto-fit, minmax(9em, 1fr));
-      gap: 30px;
-      margin: 0;
-      background-color: #676F54;
-      border: 1px solid #9CC69B;
-      align-items: center;
-      justify-items: center;
-      padding: 1em;
-   }
+    list-style: none; /* removes the bullets! */
+    display: grid;
+        grid-template-columns: 2fr(minmax(9em, 1fr));
+        gap: 30px;
+        margin: 0;
+        background-color: #676F54;
+        align-items: center;
+        justify-items: center;
+        padding: 1em;
+ } 
   
   nav a {
       color: #fdfffa;
