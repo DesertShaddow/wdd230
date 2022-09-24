@@ -22,9 +22,11 @@ body {
      
   header {
       display: grid;
-      grid-template-columns: 300px 200px 1fr;  
+      grid-template-columns: 300px 200px 1fr;
+      background-color: #676F54;  
       align-items: center;
       justify-items: center;
+      margin: 0 5em;
   }
   
   
@@ -34,11 +36,13 @@ body {
     display: grid;
         grid-template-columns: 2fr(minmax(9em, 1fr));
         gap: 30px;
-        margin: 0;
-        background-color: #676F54;
+        margin: 0 15em;
         align-items: center;
         justify-items: center;
         padding: 1em;
+        border-style: double;
+        border-width: 5px;
+        border-color: #000000;
  } 
   
   nav a {
@@ -57,12 +61,13 @@ body {
   
   footer {
       height: 95px;
-      background-color: #9CC69B;
+      background-color: #676F54;
       display: grid;
       grid-template-columns: 1fr 1fr;
       align-items: center;
       font-family: "Raleway", "Times New Roman", sans-serif;
   padding: 1em;
+    margin: 0 5em;
   }
   
   
