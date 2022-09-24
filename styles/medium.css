@@ -1,0 +1,12 @@
+h1 {
+    
+    font-family: "Playfair Display", Georgia, Serif;
+    font-weight: 700;
+    font-size: 32px;
+    align-items: center;
+    color: #00000;
+    
+  }
+
+  @media (min-width: 32.5em) {}
+
